@@ -4,9 +4,9 @@ while True:
     num: int = int(input("enter a number between 1-10:"))
     if num == SENTINEL:
         break
-    if not 1 < num < 10:
+    if not 0 <= num < 10:
         continue
     numbers.append(num)
-    for i in range(1, 10):
+    for i in range(0, 10):
         if i in numbers:
             print("statistic",[i]," = ",numbers.count(i))
