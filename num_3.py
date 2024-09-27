@@ -13,7 +13,7 @@ while True:
         if i in numbers:
             print("statistic",[i]," = ",numbers.count(i))
 while calculation < 10:
-    new_numbers.append(numbers.count(j))
+    new_numbers.append(numbers.count(calculation))
     calculation += 1
 print(new_numbers)
 # האם תוכל לפתור עבור טווח של 0-100?
