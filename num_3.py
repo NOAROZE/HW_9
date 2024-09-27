@@ -1,6 +1,6 @@
 numbers: list[int] = []
 SENTINEL: int = -999
-j: int = 0
+lculation: int = 0
 new_numbers: list[int] = []
 while True:
     num: int = int(input("enter a number between 1-10:"))
@@ -12,9 +12,9 @@ while True:
     for i in range(0, 10):
         if i in numbers:
             print("statistic",[i]," = ",numbers.count(i))
-while j < 10:
+while lculation < 10:
     new_numbers.append(numbers.count(j))
-    j += 1
+    lculation += 1
 print(new_numbers)
 # האם תוכל לפתור עבור טווח של 0-100?
 # כן אבל אם הקלטים היו גם בין 0-100 גם עכשיו היה אפשר אבל מ -10 הכל היה ריק
