@@ -9,4 +9,4 @@ while True:
     numbers.append(num)
     for i in range(1, 10):
         if i in numbers:
-            print(i," = ",numbers.count(i))
+            print("statistic",[i]," = ",numbers.count(i))
